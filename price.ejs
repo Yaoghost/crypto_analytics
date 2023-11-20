@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pricestyle.css">
+    <title>Cryptocurrency Information</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cryptocurrency Analytics</h1>
+        <div class="crypto-info">
+            <div class="info-item">
+                <p class="info-label">Symbol</p>
+                <p class="info-value"><%= symbol %></p>
+            </div>
+            <div class="info-item">
+                <p class="info-label">Price (24h)</p>
+                <p class="info-value"><%= price %></p>
+            </div>
+            <div class="info-item">
+                <p class="info-label">Volume (24h)</p>
+                <p class="info-value"><%= volume %></p>
+            </div>
+            <div class="info-item">
+                <p class="info-label">Last Trade Price</p>
+                <p class="info-value"><%= lastPrice %></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

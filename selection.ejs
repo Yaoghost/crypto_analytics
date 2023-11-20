@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cryptocurrency Information</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Select Cryptocurrency</h1>
+        <form action="/price" method="GET">
+            <label for="crypto">Choose a cryptocurrency:</label>
+            <select id="crypto" name="crypto">
+                <option value="bitcoin">Bitcoin</option>
+                <option value="ethereum">Ethereum</option>
+                <option value="litecoin">Litecoin</option>
+                <!-- Add more options as needed -->
+            </select>
+            <button type="submit">Get Information</button>
+        </form>
+    </div>
+</body>
+</html>
